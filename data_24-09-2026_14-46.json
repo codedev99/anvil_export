@@ -1,0 +1,1084 @@
+{
+  "company": {
+    "[1089119,6]": {
+      "ledger_id_counter": {
+        "datatype": "int",
+        "value": 2
+      },
+      "name": {
+        "datatype": "str",
+        "value": "Matra Prem Indane"
+      },
+      "owner": {
+        "datatype": "_reference",
+        "value": "[1089123,11]"
+      },
+      "system_date": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "system_init_date": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      }
+    }
+  },
+  "deliveryboy": {
+    "[1089144,15]": {
+      "active_since": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "mobile_number": {
+        "datatype": "int",
+        "value": 9876543210
+      },
+      "name": {
+        "datatype": "str",
+        "value": "Mohit Chaubey"
+      },
+      "portal_profile": {
+        "datatype": "_reference",
+        "value": "[1089142,19]"
+      }
+    },
+    "[1089144,16]": {
+      "active_since": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "mobile_number": {
+        "datatype": "int",
+        "value": 9876543210
+      },
+      "name": {
+        "datatype": "str",
+        "value": "Trinath Munde Sahastradaniyal"
+      },
+      "portal_profile": {
+        "datatype": "_reference",
+        "value": "[1089142,20]"
+      }
+    }
+  },
+  "item": {
+    "[1089118,16]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "linked_product": {
+        "datatype": "_reference",
+        "value": "[1089121,13]"
+      },
+      "name": {
+        "datatype": "str",
+        "value": "14.2kg DOM CYL F"
+      }
+    },
+    "[1089118,17]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "linked_product": {
+        "datatype": "_reference",
+        "value": "[1089121,13]"
+      },
+      "name": {
+        "datatype": "str",
+        "value": "14.2kg DOM CYL E"
+      }
+    },
+    "[1089118,18]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "linked_product": {
+        "datatype": "_reference",
+        "value": "[1089121,14]"
+      },
+      "name": {
+        "datatype": "str",
+        "value": "Suraksha Hose Pipe 1.5m"
+      }
+    }
+  },
+  "ledger_entries": {
+    "[1090037,13]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "entry_date": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "entry_id": {
+        "datatype": "int",
+        "value": 1
+      },
+      "item1_out": {
+        "datatype": "int",
+        "value": 10
+      },
+      "item2_difference": {
+        "datatype": "int",
+        "value": 0
+      },
+      "item2_in": {
+        "datatype": "int",
+        "value": 0
+      },
+      "ledger": {
+        "datatype": "_reference",
+        "value": "[1090036,11]"
+      },
+      "payment_difference": {
+        "datatype": "int",
+        "value": 1900
+      },
+      "payment_in": {
+        "datatype": "int",
+        "value": 0
+      },
+      "payment_liability": {
+        "datatype": "int",
+        "value": 1900
+      },
+      "remarks": {
+        "datatype": "str",
+        "value": ""
+      },
+      "timestamp": {
+        "datatype": "datetime",
+        "value": "2026-09-22T18:15:43.637052+00:00"
+      }
+    }
+  },
+  "ledgers": {
+    "[1090036,11]": {
+      "archived": {
+        "datatype": "bool",
+        "value": false
+      },
+      "associated_portal_profile": {
+        "datatype": "_reference",
+        "value": "[1089142,20]"
+      },
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "date_created": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "description": {
+        "datatype": "str",
+        "value": "Tukanath Munde"
+      },
+      "entry_id_counter": {
+        "datatype": "int",
+        "value": 2
+      },
+      "last_modified": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "latest_entry_remarks": {
+        "datatype": "str",
+        "value": ""
+      },
+      "ledger_id": {
+        "datatype": "int",
+        "value": 1
+      },
+      "ledger_name": {
+        "datatype": "str",
+        "value": "Pipe"
+      },
+      "num_entries": {
+        "datatype": "int",
+        "value": 1
+      },
+      "product": {
+        "datatype": "_reference",
+        "value": "[1089121,14]"
+      },
+      "search_tag": {
+        "datatype": "str",
+        "value": "1 pipe suraksha hose pipe 1.5m trinath munde sahastradaniyal tukanath munde"
+      },
+      "total_item2_pending_in": {
+        "datatype": "int",
+        "value": 0
+      },
+      "total_payment_pending_in": {
+        "datatype": "int",
+        "value": 1900
+      }
+    }
+  },
+  "payment_modes": {
+    "[1089602,3]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "linked_account": {
+        "datatype": "str",
+        "value": "Cash"
+      },
+      "name": {
+        "datatype": "str",
+        "value": "Cash"
+      }
+    }
+  },
+  "portal_profile": {
+    "[1089142,18]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "name": {
+        "datatype": "str",
+        "value": "Ved Gupta"
+      },
+      "type": {
+        "datatype": "str",
+        "value": "Admin"
+      }
+    },
+    "[1089142,19]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "name": {
+        "datatype": "str",
+        "value": "Mohit Chaubey"
+      },
+      "type": {
+        "datatype": "str",
+        "value": "Deliveryboy"
+      }
+    },
+    "[1089142,20]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "name": {
+        "datatype": "str",
+        "value": "Trinath Munde Sahastradaniyal"
+      },
+      "type": {
+        "datatype": "str",
+        "value": "Deliveryboy"
+      }
+    }
+  },
+  "products": {
+    "[1089121,13]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "item1": {
+        "datatype": "_reference",
+        "value": "[1089118,16]"
+      },
+      "item2": {
+        "datatype": "_reference",
+        "value": "[1089118,17]"
+      },
+      "name": {
+        "datatype": "str",
+        "value": "14.2kg DOM CYL"
+      },
+      "rate": {
+        "datatype": "int",
+        "value": 995
+      },
+      "type": {
+        "datatype": "str",
+        "value": "CYL"
+      }
+    },
+    "[1089121,14]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "item1": {
+        "datatype": "_reference",
+        "value": "[1089118,18]"
+      },
+      "item2": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "name": {
+        "datatype": "str",
+        "value": "Suraksha Hose Pipe 1.5m"
+      },
+      "rate": {
+        "datatype": "int",
+        "value": 190
+      },
+      "type": {
+        "datatype": "str",
+        "value": "NFR"
+      }
+    }
+  },
+  "sale_entry": {
+    "[1089601,19]": {
+      "actual_rate": {
+        "datatype": "int",
+        "value": 995
+      },
+      "amount_paid": {
+        "datatype": "int",
+        "value": 11940
+      },
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "date": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "deliveryboy": {
+        "datatype": "_reference",
+        "value": "[1089142,19]"
+      },
+      "description": {
+        "datatype": "str",
+        "value": ""
+      },
+      "difference_attribute": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "empty_pending_qty": {
+        "datatype": "int",
+        "value": 0
+      },
+      "empty_received_qty": {
+        "datatype": "int",
+        "value": 12
+      },
+      "ledger_entry": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "payment_difference": {
+        "datatype": "int",
+        "value": 0
+      },
+      "payment_mode": {
+        "datatype": "_reference",
+        "value": "[1089602,3]"
+      },
+      "payment_ref_no": {
+        "datatype": "str",
+        "value": ""
+      },
+      "product": {
+        "datatype": "_reference",
+        "value": "[1089121,13]"
+      },
+      "rate": {
+        "datatype": "int",
+        "value": 995
+      },
+      "sale_qty": {
+        "datatype": "int",
+        "value": 12
+      },
+      "sale_type": {
+        "datatype": "str",
+        "value": "CYL"
+      },
+      "subtotal": {
+        "datatype": "int",
+        "value": 11940
+      }
+    },
+    "[1089601,20]": {
+      "actual_rate": {
+        "datatype": "int",
+        "value": 190
+      },
+      "amount_paid": {
+        "datatype": "int",
+        "value": 0
+      },
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "date": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "deliveryboy": {
+        "datatype": "_reference",
+        "value": "[1089142,20]"
+      },
+      "description": {
+        "datatype": "str",
+        "value": ""
+      },
+      "difference_attribute": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "empty_pending_qty": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "empty_received_qty": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "ledger_entry": {
+        "datatype": "_reference",
+        "value": "[1090037,13]"
+      },
+      "payment_difference": {
+        "datatype": "int",
+        "value": 1900
+      },
+      "payment_mode": {
+        "datatype": "_reference",
+        "value": "[1089602,3]"
+      },
+      "payment_ref_no": {
+        "datatype": "str",
+        "value": ""
+      },
+      "product": {
+        "datatype": "_reference",
+        "value": "[1089121,14]"
+      },
+      "rate": {
+        "datatype": "int",
+        "value": 190
+      },
+      "sale_qty": {
+        "datatype": "int",
+        "value": 10
+      },
+      "sale_type": {
+        "datatype": "str",
+        "value": "NFR"
+      },
+      "subtotal": {
+        "datatype": "int",
+        "value": 1900
+      }
+    }
+  },
+  "stock_table": {
+    "[1089122,11]": {
+      "closing_book_stock": {
+        "datatype": "int",
+        "value": 513
+      },
+      "closing_physical_stock": {
+        "datatype": "int",
+        "value": 513
+      },
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "current_variance": {
+        "datatype": "int",
+        "value": 0
+      },
+      "date": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "item": {
+        "datatype": "_reference",
+        "value": "[1089118,16]"
+      },
+      "item_in": {
+        "datatype": "int",
+        "value": 525
+      },
+      "item_out": {
+        "datatype": "int",
+        "value": 12
+      },
+      "opening_book_stock": {
+        "datatype": "int",
+        "value": 0
+      },
+      "opening_physical_stock": {
+        "datatype": "int",
+        "value": 0
+      },
+      "previous_variance": {
+        "datatype": "int",
+        "value": 0
+      },
+      "summary_dict": {
+        "datatype": "dict",
+        "value": {
+          "Sale": {
+            "datatype": "list",
+            "value": [
+              {
+                "datatype": "str",
+                "value": "Sale"
+              },
+              {
+                "datatype": "int",
+                "value": 0
+              },
+              {
+                "datatype": "int",
+                "value": 0
+              },
+              {
+                "datatype": "int",
+                "value": 12
+              },
+              {
+                "datatype": "int",
+                "value": 12
+              }
+            ]
+          },
+          "Stock Transfer": {
+            "datatype": "list",
+            "value": [
+              {
+                "datatype": "str",
+                "value": "Stock Transfer"
+              },
+              {
+                "datatype": "int",
+                "value": 525
+              },
+              {
+                "datatype": "int",
+                "value": 525
+              },
+              {
+                "datatype": "int",
+                "value": 0
+              },
+              {
+                "datatype": "int",
+                "value": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    "[1089122,12]": {
+      "closing_book_stock": {
+        "datatype": "int",
+        "value": 12
+      },
+      "closing_physical_stock": {
+        "datatype": "int",
+        "value": 12
+      },
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "current_variance": {
+        "datatype": "int",
+        "value": 0
+      },
+      "date": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "item": {
+        "datatype": "_reference",
+        "value": "[1089118,17]"
+      },
+      "item_in": {
+        "datatype": "int",
+        "value": 12
+      },
+      "item_out": {
+        "datatype": "int",
+        "value": 0
+      },
+      "opening_book_stock": {
+        "datatype": "int",
+        "value": 0
+      },
+      "opening_physical_stock": {
+        "datatype": "int",
+        "value": 0
+      },
+      "previous_variance": {
+        "datatype": "int",
+        "value": 0
+      },
+      "summary_dict": {
+        "datatype": "dict",
+        "value": {
+          "Sale": {
+            "datatype": "list",
+            "value": [
+              {
+                "datatype": "str",
+                "value": "Sale"
+              },
+              {
+                "datatype": "int",
+                "value": 12
+              },
+              {
+                "datatype": "int",
+                "value": 12
+              },
+              {
+                "datatype": "int",
+                "value": 0
+              },
+              {
+                "datatype": "int",
+                "value": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    "[1089122,13]": {
+      "closing_book_stock": {
+        "datatype": "int",
+        "value": 90
+      },
+      "closing_physical_stock": {
+        "datatype": "int",
+        "value": 90
+      },
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "current_variance": {
+        "datatype": "int",
+        "value": 0
+      },
+      "date": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "item": {
+        "datatype": "_reference",
+        "value": "[1089118,18]"
+      },
+      "item_in": {
+        "datatype": "int",
+        "value": 100
+      },
+      "item_out": {
+        "datatype": "int",
+        "value": 10
+      },
+      "opening_book_stock": {
+        "datatype": "int",
+        "value": 0
+      },
+      "opening_physical_stock": {
+        "datatype": "int",
+        "value": 0
+      },
+      "previous_variance": {
+        "datatype": "int",
+        "value": 0
+      },
+      "summary_dict": {
+        "datatype": "dict",
+        "value": {
+          "Sale": {
+            "datatype": "list",
+            "value": [
+              {
+                "datatype": "str",
+                "value": "Sale"
+              },
+              {
+                "datatype": "int",
+                "value": 0
+              },
+              {
+                "datatype": "int",
+                "value": 0
+              },
+              {
+                "datatype": "int",
+                "value": 10
+              },
+              {
+                "datatype": "int",
+                "value": 10
+              }
+            ]
+          },
+          "Stock Transfer": {
+            "datatype": "list",
+            "value": [
+              {
+                "datatype": "str",
+                "value": "Stock Transfer"
+              },
+              {
+                "datatype": "int",
+                "value": 100
+              },
+              {
+                "datatype": "int",
+                "value": 100
+              },
+              {
+                "datatype": "int",
+                "value": 0
+              },
+              {
+                "datatype": "int",
+                "value": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "stock_transfer": {
+    "[1089267,27]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "date": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "description": {
+        "datatype": "str",
+        "value": "load"
+      },
+      "item": {
+        "datatype": "_reference",
+        "value": "[1089118,16]"
+      },
+      "item_in": {
+        "datatype": "int",
+        "value": 525
+      },
+      "item_out": {
+        "datatype": "int",
+        "value": 0
+      },
+      "ledger_entry": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "staff": {
+        "datatype": "_reference",
+        "value": "[1089142,18]"
+      }
+    },
+    "[1089267,28]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "date": {
+        "datatype": "date",
+        "value": "2026-09-22"
+      },
+      "description": {
+        "datatype": "str",
+        "value": "in"
+      },
+      "item": {
+        "datatype": "_reference",
+        "value": "[1089118,18]"
+      },
+      "item_in": {
+        "datatype": "int",
+        "value": 100
+      },
+      "item_out": {
+        "datatype": "int",
+        "value": 0
+      },
+      "ledger_entry": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "staff": {
+        "datatype": "_reference",
+        "value": "[1089142,18]"
+      }
+    }
+  },
+  "user_types": {
+    "[1095223,14]": {
+      "permission_level": {
+        "datatype": "int",
+        "value": -1
+      },
+      "type": {
+        "datatype": "str",
+        "value": "Superuser"
+      }
+    },
+    "[1095223,15]": {
+      "permission_level": {
+        "datatype": "int",
+        "value": 0
+      },
+      "type": {
+        "datatype": "str",
+        "value": "Owner"
+      }
+    },
+    "[1095223,16]": {
+      "permission_level": {
+        "datatype": "int",
+        "value": 1
+      },
+      "type": {
+        "datatype": "str",
+        "value": "Admin"
+      }
+    },
+    "[1095223,17]": {
+      "permission_level": {
+        "datatype": "int",
+        "value": 2
+      },
+      "type": {
+        "datatype": "str",
+        "value": "Staff"
+      }
+    },
+    "[1095223,18]": {
+      "permission_level": {
+        "datatype": "int",
+        "value": 3
+      },
+      "type": {
+        "datatype": "str",
+        "value": "Accounts"
+      }
+    },
+    "[1095223,19]": {
+      "permission_level": {
+        "datatype": "int",
+        "value": 4
+      },
+      "type": {
+        "datatype": "str",
+        "value": "View Only"
+      }
+    }
+  },
+  "users": {
+    "[1089123,10]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "confirmed_email": {
+        "datatype": "bool",
+        "value": true
+      },
+      "email": {
+        "datatype": "str",
+        "value": "vedguptaup@gmail.com"
+      },
+      "email_confirmation_key": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "enabled": {
+        "datatype": "bool",
+        "value": true
+      },
+      "last_login": {
+        "datatype": "datetime",
+        "value": "2026-09-24T14:45:21.149000+00:00"
+      },
+      "mobile_number": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "n_password_failures": {
+        "datatype": "int",
+        "value": 0
+      },
+      "name": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "password_hash": {
+        "datatype": "str",
+        "value": "$2b$12$i0UCaxwBcISrcIjT1EtmeOofcbAca1yUtyoyTK5g1EnnphfWWQYDq"
+      },
+      "portal_profile": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "remembered_logins": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "signed_up": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "user_type": {
+        "datatype": "_reference",
+        "value": "[1095223,14]"
+      }
+    },
+    "[1089123,11]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "confirmed_email": {
+        "datatype": "bool",
+        "value": true
+      },
+      "email": {
+        "datatype": "str",
+        "value": "sunitaguptaup@gmail.com"
+      },
+      "email_confirmation_key": {
+        "datatype": "str",
+        "value": "dzZep2b8sKDncQ"
+      },
+      "enabled": {
+        "datatype": "bool",
+        "value": true
+      },
+      "last_login": {
+        "datatype": "datetime",
+        "value": "2026-09-22T18:00:22.624000+00:00"
+      },
+      "mobile_number": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "n_password_failures": {
+        "datatype": "int",
+        "value": 0
+      },
+      "name": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "password_hash": {
+        "datatype": "str",
+        "value": "$2a$10$WJN.7IXLCTN3GiP.7tfRLOD06fqZgnhziw.Zl6gVxKJFGJSc.9Klu"
+      },
+      "portal_profile": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "remembered_logins": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "signed_up": {
+        "datatype": "datetime",
+        "value": "2026-09-22T17:53:51.805000+00:00"
+      },
+      "user_type": {
+        "datatype": "_reference",
+        "value": "[1095223,15]"
+      }
+    },
+    "[1089123,12]": {
+      "company": {
+        "datatype": "_reference",
+        "value": "[1089119,6]"
+      },
+      "confirmed_email": {
+        "datatype": "bool",
+        "value": false
+      },
+      "email": {
+        "datatype": "str",
+        "value": "matraprem.backoffice@gmail.com"
+      },
+      "email_confirmation_key": {
+        "datatype": "str",
+        "value": "zVLgjWHwi-GxzQ"
+      },
+      "enabled": {
+        "datatype": "bool",
+        "value": true
+      },
+      "last_login": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "mobile_number": {
+        "datatype": "int",
+        "value": 9415616078
+      },
+      "n_password_failures": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "name": {
+        "datatype": "str",
+        "value": "Ved Gupta"
+      },
+      "password_hash": {
+        "datatype": "str",
+        "value": "$2a$10$R.1nWyebIRB7NQjB4r2UDu6.SScEzsh5Kpiq1mUbHJWv0pWwYma6y"
+      },
+      "portal_profile": {
+        "datatype": "_reference",
+        "value": "[1089142,18]"
+      },
+      "remembered_logins": {
+        "datatype": "NoneType",
+        "value": null
+      },
+      "signed_up": {
+        "datatype": "datetime",
+        "value": "2026-09-22T18:09:33.475000+00:00"
+      },
+      "user_type": {
+        "datatype": "_reference",
+        "value": "[1095223,16]"
+      }
+    }
+  }
+}
